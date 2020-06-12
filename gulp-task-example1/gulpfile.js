@@ -14,3 +14,8 @@ function js(done) {
 
 gulp.task("js", js);
 
+function watch_js() {
+  gulp.watch(json.files, js);
+}
+
+gulp.task("watch", watch_js);
