@@ -1,0 +1,1 @@
+var t,x=5,y=6,z=x+y,a="Jon",b="Doe",c=a+b;x=33;
